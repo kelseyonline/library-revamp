@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Hall of Fame</title>
+</head>
+<body>
+    <h2 id="hero">Library Hall of Fame</h2>
+    <table id="table">
+        <tr id="table-header">
+          <th id="title-header">Title</th>
+          <th id="author-header">Author</th>
+          <th id="pages-header">Pages</th>
+          <th id="read-header">Read?</th>
+        </tr>
+      </table> 
+
+      <button id="add-book-btn">+ Add new</button>
+
+    <script src="script.js"></script>
+
+    <dialog id="dialog">
+        <form action="post" id="form">
+            <label for="title-input">Title</label>
+            <input type="text" id="title-input" name="title">
+            <label for="title-input">Author</label>
+            <input type="text" id="author-input" name="author">
+            <label for="title-input">Pages</label>
+            <input type="text" id="pages-input" name="pages">
+            <label for="title-input">Read?</label>
+            <input type="text" id="read-input" name="read">
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </dialog>
+
+</body>
+</html>
