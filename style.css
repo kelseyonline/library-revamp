@@ -1,0 +1,45 @@
+* { 
+    background-color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    color: skyblue;
+}
+
+#table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.delete-btn {
+    background-color: aliceblue;
+    border: 1px solid skyblue;
+    border-radius: 6px;
+}
+
+#add-book-btn {
+    background-color: aliceblue;
+    border: 1px solid skyblue;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+}
+
+footer {
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+}

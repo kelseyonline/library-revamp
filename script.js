@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
             cell1.innerHTML = myLibrary[i].title;
             cell2.innerHTML = myLibrary[i].author;
             cell3.innerHTML = myLibrary[i].pages;
-            cell4.innerHTML = myLibrary[i].read;
+            cell4.innerHTML ='<label class="switch"><input type="checkbox"><span class="slider round"></span></label>';
 
             var deleteButton = '<button class="delete-btn">Delete</button>';
 

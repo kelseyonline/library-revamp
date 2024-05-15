@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Library Hall of Fame</title>
 </head>
 <body>
@@ -25,15 +26,25 @@
         <form action="post" id="form">
             <label for="title-input">Title</label>
             <input type="text" id="title-input" name="title">
-            <label for="title-input">Author</label>
+            <br>
+            <label for="author-input">Author</label>
             <input type="text" id="author-input" name="author">
-            <label for="title-input">Pages</label>
+            <br>
+            <label for="pages-input">Pages</label>
             <input type="text" id="pages-input" name="pages">
-            <label for="title-input">Read?</label>
-            <input type="text" id="read-input" name="read">
+            <br>
+            <label for="radio-div">Read it?</label>
+            <div id="radio-div">
+                <label for="radio-input-yes">Yes</label>
+                <input type="radio" id="read-input-yes" name="read">
+                <label for="radio-input-no">No</label>
+                <input type="radio" id="read-input-no" name="read">
+            </div>
+            <br>
             <button type="submit" id="submit-btn">Submit</button>
         </form>
     </dialog>
+    <footer>Made by @kelseyonline</footer>
 
 </body>
 </html>
